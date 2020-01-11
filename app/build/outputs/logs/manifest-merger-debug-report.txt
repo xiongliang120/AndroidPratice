@@ -1,0 +1,151 @@
+-- Merging decision tree log ---
+manifest
+ADDED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml:2:1-49:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\a5d60dc29de2268a028c50df530157cf\AndroidManifest.xml:17:1-24:12
+MERGED from [com.hwangjr.rxbus:rxbus:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxbus-1.0.6.aar\1d897dbd34aa5bb13d644ff2062bf0e6\AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\4474cf6fd57925ed9ab5449ab6561010\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\ce6e51ffd298e1cfe26297b27b0c07c9\AndroidManifest.xml:17:1-25:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\b2fd36d2c57ffac25d987d6742e16614\AndroidManifest.xml:17:1-22:12
+MERGED from [io.reactivex:rxandroid:1.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxandroid-1.2.1.aar\90ac1175fb044722c985c6bd1e17b8de\AndroidManifest.xml:15:1-21:12
+MERGED from [com.jakewharton.timber:timber:4.5.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\timber-4.5.1.aar\4a93c3a57d43ff243cee707a8d01d319\AndroidManifest.xml:2:1-10:12
+INJECTED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml:2:1-49:12
+	package
+		ADDED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml:4:5-37
+		INJECTED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml
+		INJECTED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml:6:5-30
+		INJECTED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml
+		INJECTED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml:5:5-28
+		INJECTED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml
+		INJECTED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml:8:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml:9:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml:10:5-75
+	android:name
+		ADDED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml:10:22-72
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml:11:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml:12:5-76
+	android:name
+		ADDED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml:12:22-73
+uses-permission#android.permission.GET_TASKS
+ADDED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml:13:5-68
+	android:name
+		ADDED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml:13:22-65
+uses-permission#android.permission.READ_LOGS
+ADDED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml:14:5-68
+	android:name
+		ADDED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml:14:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml:15:5-79
+	android:name
+		ADDED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml:15:22-76
+application
+ADDED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml:17:5-47:19
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\a5d60dc29de2268a028c50df530157cf\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\a5d60dc29de2268a028c50df530157cf\AndroidManifest.xml:22:5-94
+MERGED from [com.hwangjr.rxbus:rxbus:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxbus-1.0.6.aar\1d897dbd34aa5bb13d644ff2062bf0e6\AndroidManifest.xml:9:5-12:19
+MERGED from [com.hwangjr.rxbus:rxbus:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxbus-1.0.6.aar\1d897dbd34aa5bb13d644ff2062bf0e6\AndroidManifest.xml:9:5-12:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\4474cf6fd57925ed9ab5449ab6561010\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\4474cf6fd57925ed9ab5449ab6561010\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\ce6e51ffd298e1cfe26297b27b0c07c9\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\ce6e51ffd298e1cfe26297b27b0c07c9\AndroidManifest.xml:22:5-23:19
+MERGED from [com.jakewharton.timber:timber:4.5.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\timber-4.5.1.aar\4a93c3a57d43ff243cee707a8d01d319\AndroidManifest.xml:8:5-20
+MERGED from [com.jakewharton.timber:timber:4.5.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\timber-4.5.1.aar\4a93c3a57d43ff243cee707a8d01d319\AndroidManifest.xml:8:5-20
+	android:supportsRtl
+		ADDED from [com.hwangjr.rxbus:rxbus:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxbus-1.0.6.aar\1d897dbd34aa5bb13d644ff2062bf0e6\AndroidManifest.xml:11:9-35
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\a5d60dc29de2268a028c50df530157cf\AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml:20:9-41
+	android:icon
+		ADDED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml:19:9-38
+	android:allowBackup
+		ADDED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml:18:9-36
+		REJECTED from [com.hwangjr.rxbus:rxbus:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxbus-1.0.6.aar\1d897dbd34aa5bb13d644ff2062bf0e6\AndroidManifest.xml:10:9-35
+	android:theme
+		ADDED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml:21:9-40
+	tools:replace
+		ADDED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml:22:9-44
+activity#com.wbtech.test_sample.CobubSampleActivity
+ADDED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml:23:9-31:20
+	android:label
+		ADDED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml:25:13-56
+	android:name
+		ADDED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml:24:13-70
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml:26:13-30:29
+action#android.intent.action.MAIN
+ADDED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml:27:17-69
+	android:name
+		ADDED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml:27:25-66
+category#android.intent.category.LAUNCHER
+ADDED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml:29:17-77
+	android:name
+		ADDED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml:29:27-74
+service#com.wbtech.test_sample.MyJobIntentService
+ADDED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml:34:9-37:19
+	android:permission
+		ADDED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml:36:13-69
+	android:name
+		ADDED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml:35:13-47
+service#com.wbtech.test_sample.MyJobService
+ADDED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml:39:9-42:19
+	android:permission
+		ADDED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml:41:13-69
+	android:name
+		ADDED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml:40:13-41
+service#com.wbtech.test_sample.MyService
+ADDED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml:44:9-45
+	android:name
+		ADDED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml:44:18-43
+uses-sdk
+INJECTED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml
+INJECTED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\a5d60dc29de2268a028c50df530157cf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\a5d60dc29de2268a028c50df530157cf\AndroidManifest.xml:20:5-44
+MERGED from [com.hwangjr.rxbus:rxbus:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxbus-1.0.6.aar\1d897dbd34aa5bb13d644ff2062bf0e6\AndroidManifest.xml:5:5-7:41
+MERGED from [com.hwangjr.rxbus:rxbus:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxbus-1.0.6.aar\1d897dbd34aa5bb13d644ff2062bf0e6\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\4474cf6fd57925ed9ab5449ab6561010\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\4474cf6fd57925ed9ab5449ab6561010\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\ce6e51ffd298e1cfe26297b27b0c07c9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\ce6e51ffd298e1cfe26297b27b0c07c9\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\b2fd36d2c57ffac25d987d6742e16614\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\b2fd36d2c57ffac25d987d6742e16614\AndroidManifest.xml:20:5-44
+MERGED from [io.reactivex:rxandroid:1.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxandroid-1.2.1.aar\90ac1175fb044722c985c6bd1e17b8de\AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex:rxandroid:1.2.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxandroid-1.2.1.aar\90ac1175fb044722c985c6bd1e17b8de\AndroidManifest.xml:19:5-43
+MERGED from [com.jakewharton.timber:timber:4.5.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\timber-4.5.1.aar\4a93c3a57d43ff243cee707a8d01d319\AndroidManifest.xml:6:5-43
+MERGED from [com.jakewharton.timber:timber:4.5.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\timber-4.5.1.aar\4a93c3a57d43ff243cee707a8d01d319\AndroidManifest.xml:6:5-43
+INJECTED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml
+INJECTED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml
+		ADDED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml
+		INJECTED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml
+		ADDED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml
+		INJECTED from G:\javaspace\AndroidPratice\app\src\main\AndroidManifest.xml
