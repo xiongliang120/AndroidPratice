@@ -1,0 +1,9 @@
+
+gsquid:S1192"IDefine a constant instead of duplicating this literal "UMSAgent" 3 times.(Êş¡í8¹¨Ş×-
+Gsquid:S2786v")Remove this redundant "static" qualifier.(€Ú ä8¹¨Ş×-
+Lsquid:S2786")Remove this redundant "static" qualifier.(æÿç€ıÿÿÿÿ8¹¨Ş×-
+zsquid:S00115€"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(µ§ÈÌ8¹¨Ş×-
+zsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(æÄÖÛ8¹¨Ş×-
+squid:S00115‚"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(“¿¬ÿÿÿÿÿ8¹¨Ş×-
+squid:S00115ƒ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(š¤şÿÿÿÿ8¹¨Ş×-
+squid:S00115„"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ç½…Ÿùÿÿÿÿ8¹¨Ş×-

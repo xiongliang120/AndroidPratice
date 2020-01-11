@@ -1,0 +1,13 @@
+
+rsquid:S1192P"TUse already-defined constant 'TRANSFORMATION' instead of duplicating its value here.(ç­ó”8ñä×-
+ksquid:S1192M"MUse already-defined constant 'DES_Key' instead of duplicating its value here.(ğİà8ñä×-
+xsquid:S1192L"UUse already-defined constant 'IVPARAMETERSPEC' instead of duplicating its value here.(ã·ü×üÿÿÿÿ8ñä×-
+Fsquid:S1148c"#Use a logger to log this exception.(µ•—Ÿúÿÿÿÿ8ñä×-
+~squid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‘ñ„øÿÿÿÿ8ñä×-
+‚squid:S1149""_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ğ¡ú‚úÿÿÿÿ8ñä×-
+]squid:S2278P"?Use the recommended AES (Advanced Encryption Standard) instead.(ç­ó”8ñä×-
+]squid:S2278^"?Use the recommended AES (Advanced Encryption Standard) instead.(ç­ó”8ñä×-
+Psquid:S1068"2Remove this unused "TRANSFORMATION" private field.(†Ò‚§8ñä×-
+Qsquid:S1068"3Remove this unused "IVPARAMETERSPEC" private field.(ƒÿ›‘8ñä×-
+Psquid:S1068"-Remove this unused "ALGORITHM" private field.(›ö®Áûÿÿÿÿ8ñä×-
+Nsquid:S1068"+Remove this unused "DES_Key" private field.(‘ñ„øÿÿÿÿ8ñä×-

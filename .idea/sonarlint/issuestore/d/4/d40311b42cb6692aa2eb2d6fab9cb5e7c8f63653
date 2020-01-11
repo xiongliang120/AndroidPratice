@@ -1,0 +1,38 @@
+
+hsquid:CommentedOutCodeLineå"<This block of commented-out lines of code should be removed.(Á¹”øøÿÿÿÿ
+nsquid:S1192o"RDefine a constant instead of duplicating this literal "sdk is not init!" 25 times.(€ÇÖšùÿÿÿÿ
+csquid:CommentedOutCodeLineò"<This block of commented-out lines of code should be removed.(òùÌÇ
+Nsquid:S1153Ð"1Directly append the argument of String.valueOf().(Ê’ÏÝýÿÿÿÿ
+Msquid:S1153}"1Directly append the argument of String.valueOf().(ÇÀ·Æûÿÿÿÿ
+wsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ç±éßûÿÿÿÿ
+hsquid:CommentedOutCodeLineÖ"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+^squid:S2184È"FCast one of the operands of this multiplication operation to a "long".(ëÙ ±
+hsquid:CommentedOutCodeLineÔ"<This block of commented-out lines of code should be removed.(…³í–ûÿÿÿÿ
+hsquid:CommentedOutCodeLineÙ"<This block of commented-out lines of code should be removed.(×ñ¢ûÿÿÿÿ
+hsquid:CommentedOutCodeLine÷"<This block of commented-out lines of code should be removed.(Á¹”øøÿÿÿÿ
+hsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+csquid:CommentedOutCodeLineá"<This block of commented-out lines of code should be removed.(÷µ¡Õ
+jsquid:S00117Â"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ú´»©
+Nsquid:S1153•"1Directly append the argument of String.valueOf().(žÑ©Çùÿÿÿÿ
+hsquid:CommentedOutCodeLineã"<This block of commented-out lines of code should be removed.(¡—ñÉüÿÿÿÿ
+hsquid:CommentedOutCodeLine„"<This block of commented-out lines of code should be removed.(ö¡á“ùÿÿÿÿ
+hsquid:CommentedOutCodeLineˆ"<This block of commented-out lines of code should be removed.(ÅÏÂÙúÿÿÿÿ
+rsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ê¾‡¹
+Hsquid:S1153t"1Directly append the argument of String.valueOf().(ˆªÕà
+csquid:CommentedOutCodeLineÝ"<This block of commented-out lines of code should be removed.(¢ù‡Û
+hsquid:CommentedOutCodeLineù"<This block of commented-out lines of code should be removed.(áíüÈùÿÿÿÿ
+wsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¢êÿÐýÿÿÿÿ
+Xsquid:S1854’";Remove this useless assignment to local variable "context".(Å½þûÿÿÿÿ
+jsquid:S00117Ç"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŸÞÖÛ
+osquid:S00117Ä"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄÓé‚ûÿÿÿÿ
+bsquid:CommentedOutCodeLineŒ"<This block of commented-out lines of code should be removed.(ÙØ¹~
+}squid:UselessImportCheck"TRemove this unnecessary import: same package classes are always implicitly imported.(ìª¯¸üÿÿÿÿ
+bsquid:CommentedOutCodeLineJ"<This block of commented-out lines of code should be removed.(×åïË
+Nsquid:S1153Ž"1Directly append the argument of String.valueOf().(Ëž¬øýÿÿÿÿ
+hsquid:CommentedOutCodeLineç"<This block of commented-out lines of code should be removed.(áíüÈùÿÿÿÿ
+rsquid:S00115 "ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(åÝŸ‰
+ksquid:S3008"ORename this field "INIT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í€¶ùÿÿÿÿ
+gsquid:CommentedOutCodeLineA"<This block of commented-out lines of code should be removed.(”Ê¹üÿÿÿÿ
+rsquid:S00115!"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ˆšº’
+csquid:CommentedOutCodeLineÑ"<This block of commented-out lines of code should be removed.(Ô¬ªô
+Nsquid:S1153í"1Directly append the argument of String.valueOf().(õò¬³üÿÿÿÿ

@@ -1,0 +1,16 @@
+
+Qsquid:S1141X"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+"squid:ClassVariableVisibilityCheckƒ"ZMake nametimeString a static final constant or non-public and provide accessors if needed.(Øö¶€ıÿÿÿÿ
+nsquid:S00117V"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äÄ¬Øûÿÿÿÿ
+osquid:S00117Ó"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±Â‡˜ùÿÿÿÿ
+}squid:UselessImportCheck)"TRemove this unnecessary import: same package classes are always implicitly imported.(ìª¯¸üÿÿÿÿ
+tsquid:S14504"]Remove the "downLoadThread" field and declare it as a local variable in the relevant methods.(¬½¯Ä
+Ksquid:EmptyStatementUsageCheckz"Remove this empty statement.(ôŸìúÿÿÿÿ
+Ssquid:S2696›"6Make the enclosing method "static" or remove this set.(»éàØşÿÿÿÿ
+Ssquid:S2696©"6Make the enclosing method "static" or remove this set.(»éàØşÿÿÿÿ
+Ssquid:S2696®"6Make the enclosing method "static" or remove this set.(ğíµüÿÿÿÿ
+Msquid:S2696¶"6Make the enclosing method "static" or remove this set.(¡Ò¨L
+Usquid:S1197×"8Move the array designator from the variable to the type.(È¤İ”úÿÿÿÿ
+Ssquid:S2696Ü"6Make the enclosing method "static" or remove this set.(Ş–‡İşÿÿÿÿ
+Nsquid:S2696ˆ"6Make the enclosing method "static" or remove this set.(’”ş¥
+\squid:S3398"?Move this method into the anonymous class declared at line 110.(ÇşÓÿøÿÿÿÿ

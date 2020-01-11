@@ -1,0 +1,5 @@
+
+Gsquid:S14811")Remove this unused "var1" local variable.(¥§Œ8”›Ø×-
+Vsquid:S18541"8Remove this useless assignment to local variable "var1".(¥§Œ8”›Ø×-
+Vsquid:S1854!"8Remove this useless assignment to local variable "var2".(ôÉ©8”›Ø×-
+Gsquid:S1481!")Remove this unused "var2" local variable.(ôÉ©8”›Ø×-

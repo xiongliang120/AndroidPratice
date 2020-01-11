@@ -1,0 +1,52 @@
+
+bsquid:S21845"FCast one of the operands of this multiplication operation to a "long".(¡ˆš§ûÿÿÿÿ
+Jsquid:S1444".Make this "public static BASE_URL" field final(÷Ò…ëøÿÿÿÿ
+Isquid:S1444$"2Make this "public static DebugEnabled" field final(ô´ ¥
+Gsquid:S1444&"0Make this "public static DebugLevel" field final(úä­ß
+Ssquid:S1444*"<Make this "public static kContinueSessionMillis" field final(ÚŸÜÞ
+Qsquid:S1444,"5Make this "public static mProvideGPSData" field final(è–¿Äøÿÿÿÿ
+Qsquid:S1444."5Make this "public static mUpdateOnlyWifi" field final(¦Ë§÷úÿÿÿÿ
+Osquid:S14442"3Make this "public static mReportPolicy" field final(Ú•™œþÿÿÿÿ
+Qsquid:S14445"5Make this "public static defaultFileSize" field final(¡ˆš§ûÿÿÿÿ
+Isquid:S14447"-Make this "public static fileSep" field final(ë”™­þÿÿÿÿ
+Msquid:S14449"1Make this "public static SDK_VERSION" field final(‘²¯Ÿÿÿÿÿÿ
+Osquid:S1444;"8Make this "public static SDK_SECURITY_LEVEL" field final(‚žž
+Hsquid:S1444="2Make this "public static SDK_POS_NAME" field final(ûëòI
+Osquid:S1444?"3Make this "public static SDK_CSR_ALIAS" field final(¦ä‹°ùÿÿÿÿ
+Nsquid:S1444A"2Make this "public static SDK_HTTPS_DN" field final(­Ÿõýÿÿÿÿ
+Msquid:S1444C"1Make this "public static LIB_VERSION" field final(—ûÁùÿÿÿÿ
+‡"squid:ClassVariableVisibilityCheck"TMake BASE_URL a static final constant or non-public and provide accessors if needed.(÷Ò…ëøÿÿÿÿ
+†"squid:ClassVariableVisibilityCheck$"XMake DebugEnabled a static final constant or non-public and provide accessors if needed.(ô´ ¥
+„"squid:ClassVariableVisibilityCheck&"VMake DebugLevel a static final constant or non-public and provide accessors if needed.(úä­ß
+"squid:ClassVariableVisibilityCheck*"bMake kContinueSessionMillis a static final constant or non-public and provide accessors if needed.(ÚŸÜÞ
+Ž"squid:ClassVariableVisibilityCheck,"[Make mProvideGPSData a static final constant or non-public and provide accessors if needed.(è–¿Äøÿÿÿÿ
+Ž"squid:ClassVariableVisibilityCheck."[Make mUpdateOnlyWifi a static final constant or non-public and provide accessors if needed.(¦Ë§÷úÿÿÿÿ
+Œ"squid:ClassVariableVisibilityCheck2"YMake mReportPolicy a static final constant or non-public and provide accessors if needed.(Ú•™œþÿÿÿÿ
+Ž"squid:ClassVariableVisibilityCheck5"[Make defaultFileSize a static final constant or non-public and provide accessors if needed.(¡ˆš§ûÿÿÿÿ
+†"squid:ClassVariableVisibilityCheck7"SMake fileSep a static final constant or non-public and provide accessors if needed.(ë”™­þÿÿÿÿ
+Š"squid:ClassVariableVisibilityCheck9"WMake SDK_VERSION a static final constant or non-public and provide accessors if needed.(‘²¯Ÿÿÿÿÿÿ
+Œ"squid:ClassVariableVisibilityCheck;"^Make SDK_SECURITY_LEVEL a static final constant or non-public and provide accessors if needed.(‚žž
+…"squid:ClassVariableVisibilityCheck="XMake SDK_POS_NAME a static final constant or non-public and provide accessors if needed.(ûëòI
+Œ"squid:ClassVariableVisibilityCheck?"YMake SDK_CSR_ALIAS a static final constant or non-public and provide accessors if needed.(¦ä‹°ùÿÿÿÿ
+‹"squid:ClassVariableVisibilityCheckA"XMake SDK_HTTPS_DN a static final constant or non-public and provide accessors if needed.(­Ÿõýÿÿÿÿ
+Š"squid:ClassVariableVisibilityCheckC"WMake LIB_VERSION a static final constant or non-public and provide accessors if needed.(—ûÁùÿÿÿÿ
+osquid:S3008"SRename this field "BASE_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷Ò…ëøÿÿÿÿ
+nsquid:S3008$"WRename this field "DebugEnabled" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ô´ ¥
+lsquid:S3008&"URename this field "DebugLevel" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úä­ß
+rsquid:S30089"VRename this field "SDK_VERSION" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘²¯Ÿÿÿÿÿÿ
+tsquid:S3008;"]Rename this field "SDK_SECURITY_LEVEL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚žž
+msquid:S3008="WRename this field "SDK_POS_NAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûëòI
+tsquid:S3008?"XRename this field "SDK_CSR_ALIAS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦ä‹°ùÿÿÿÿ
+ssquid:S3008A"WRename this field "SDK_HTTPS_DN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­Ÿõýÿÿÿÿ
+rsquid:S3008C"VRename this field "LIB_VERSION" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—ûÁùÿÿÿÿ
+Qsquid:S1118":Add a private constructor to hide the implicit public one.(êÒè–
+jsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(ÿÀë„
+jsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(ôÙÐ¦
+jsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(¬´’»
+jsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(ûÎéä
+jsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(Ýƒ˜¹
+jsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(üÈçÉ
+jsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(þ…‘Ý
+jsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(þÞæ‹
+osquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(ÿÛœšúÿÿÿÿ
+bsquid:CommentedOutCodeLine;"<This block of commented-out lines of code should be removed.(‚žž

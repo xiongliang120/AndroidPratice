@@ -1,0 +1,5 @@
+
+isquid:S00117P"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªð÷Ä
+}squid:UselessImportCheck"TRemove this unnecessary import: same package classes are always implicitly imported.(ìª¯¸üÿÿÿÿ
+8squid:S1170"!Make this final field static too.(ÿøÜ‘
+ksquid:S00116"SRename this field "PLATFORM" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿøÜ‘

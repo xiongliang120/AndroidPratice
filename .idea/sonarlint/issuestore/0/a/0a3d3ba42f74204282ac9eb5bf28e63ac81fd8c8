@@ -1,0 +1,9 @@
+
+lsquid:S1192""IDefine a constant instead of duplicating this literal "UMSAgent" 5 times.(ä¢Ÿ ûÿÿÿÿ8ÍÏÏ×-
+Ÿsquid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.( ·Åö8ÍÏÏ×-
+Msquid:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8ÍÏÏ×-
+fsquid:S4042e"IUse "java.nio.Files#delete" here for better messages on error conditions.(èË»8ÍÏÏ×-
+W
+squid:S899e";Do something with the "boolean" value returned by "delete".(èË»8ÍÏÏ×-
+Msquid:S2093Q"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8ÍÏÏ×-
+Osquid:S1068",Remove this unused "FILE_SEP" private field.(Ë¾…àüÿÿÿÿ8ÍÏÏ×-

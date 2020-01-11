@@ -1,0 +1,8 @@
+
+Osquid:S1481[",Remove this unused "success" local variable.(†æ¨ùÿÿÿÿ8ö¿Ç×-
+Osquid:S1481J",Remove this unused "success" local variable.(†æ¨ùÿÿÿÿ8ö¿Ç×-
+Wsquid:S1068"4Remove this unused "ACTION_INTERFACE" private field.(„ýðýÿÿÿÿ8ö¿Ç×-
+ysquid:S1192J"VUse already-defined constant 'ACTION_INTERFACE' instead of duplicating its value here.(†æ¨ùÿÿÿÿ8ö¿Ç×-
+Asquid:S1148_"#Use a logger to log this exception.(½×‰è8ö¿Ç×-
+^squid:S1854J";Remove this useless assignment to local variable "success".(†æ¨ùÿÿÿÿ8ö¿Ç×-
+^squid:S1854[";Remove this useless assignment to local variable "success".(†æ¨ùÿÿÿÿ8ö¿Ç×-

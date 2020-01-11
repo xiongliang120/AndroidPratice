@@ -1,0 +1,26 @@
+
+bsquid:CommentedOutCodeLineD"<This block of commented-out lines of code should be removed.(¦Äšæ
+bsquid:CommentedOutCodeLine
+"<This block of commented-out lines of code should be removed.(Í”êÅ
+nsquid:S001178"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õ ”úùÿÿÿÿ
+Fsquid:S1185³"(Remove this method to simply inherit it.(¹§ 8¨ØÖŒ×-
+Gsquid:S1185«"(Remove this method to simply inherit it.(Ù«µ§8þÃÖŒ×-
+bsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Í”êÅ
+jsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ð’ñß8ðÎé‹×-
+nsquid:CommentedOutCodeLineB"<This block of commented-out lines of code should be removed.(¶á×ûÿÿÿÿ8ƒ®Û‹×-
+hsquid:CommentedOutCodeLineh"<This block of commented-out lines of code should be removed.(®åžW8ËŠÜ‹×-
+Nsquid:S1153™"1Directly append the argument of String.valueOf().(µ¨õòùÿÿÿÿ
+hsquid:CommentedOutCodeLineY"<This block of commented-out lines of code should be removed.(Öùí)8éÖÛ‹×-
+bsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Í”êÅ
+jsquid:CommentedOutCodeLine…"<This block of commented-out lines of code should be removed.(¬¹ä8ðÎé‹×-
+gsquid:CommentedOutCodeLineH"<This block of commented-out lines of code should be removed.(ëÆÈ¶øÿÿÿÿ
+jsquid:CommentedOutCodeLine¶"<This block of commented-out lines of code should be removed.(Î‹ä”8¨ØÖŒ×-
+Osquid:S3518˜"7Make sure "a" can't be zero before doing this division.(²¥Ô±
+Vsquid:UselessImportCheck"-Remove this unused import 'java.util.Random'.(èøÉ›ùÿÿÿÿ
+jsquid:CommentedOutCodeLine­"<This block of commented-out lines of code should be removed.(¸æ› 8þÃÖŒ×-
+asquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¦Æ¨6
+nsquid:S00117:"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æÆ‰“üÿÿÿÿ
+isquid:S001179"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼ô½¿
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(“ø ­ÿÿÿÿÿ
+@squid:S1185º"(Remove this method to simply inherit it.(ÍÙ÷¢
+isquid:CommentedOutCodeLineV"<This block of commented-out lines of code should be removed.(¸šùÄ8éÖÛ‹×-

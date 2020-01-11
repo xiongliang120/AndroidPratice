@@ -1,0 +1,9 @@
+
+lsquid:S1192<"IDefine a constant instead of duplicating this literal "UMSAgent" 6 times.(ŒÌ‹§úÿÿÿÿ8µîÜ×-
+usquid:S1192J"WDefine a constant instead of duplicating this literal "UmsAgent is not enable" 5 times.(¸ûÎ8µîÜ×-
+Msquid:S1066."/Merge this if statement with the enclosing one.(³Ş×8µîÜ×-
+Vsquid:S1854"8Remove this useless assignment to local variable "var0".(¦¿ıã8µîÜ×-
+Vsquid:S1854/"8Remove this useless assignment to local variable "var2".(ëâÚ8µîÜ×-
+Wsquid:S21680"9Remove this dangerous instance of double-checked locking.(±‰¥¢8µîÜ×-
+Gsquid:S1481")Remove this unused "var0" local variable.(¦¿ıã8µîÜ×-
+Gsquid:S1481/")Remove this unused "var2" local variable.(ëâÚ8µîÜ×-

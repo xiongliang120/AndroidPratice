@@ -1,0 +1,6 @@
+
+lsquid:S1192"IDefine a constant instead of duplicating this literal "UMSAgent" 8 times.(‚ö÷úÿÿÿÿ8»ëÔ×-
+nsquid:S1301/"KReplace this "switch" statement by "if" statements to increase readability.(²‹›Øüÿÿÿÿ8¼ëÔ×-
+msquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯äŸØ8¼ëÔ×-
+Hsquid:S00108")Either remove or fill this block of code.(¶¦™Ü8¼ëÔ×-
+Wsquid:UnusedPrivateMethodN"+Remove this unused private "isJson" method.(ÚÔ°†8¼ëÔ×-
