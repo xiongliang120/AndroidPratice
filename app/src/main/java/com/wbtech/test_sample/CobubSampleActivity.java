@@ -35,6 +35,8 @@ import com.hwangjr.rxbus.annotation.Subscribe;
 import com.hwangjr.rxbus.thread.EventThread;
 import com.wbtech.test_sample.event.ServiceToActivityEvent;
 
+import org.greenrobot.eventbus.EventBus;
+
 import java.util.concurrent.ScheduledThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
@@ -63,7 +65,8 @@ public class CobubSampleActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         RxBus.get().register(this);
-
+        EventBus.getDefault().register(this);
+        Thread
 
 //        startJonIntentService();
           startJobService();
@@ -119,6 +122,7 @@ public class CobubSampleActivity extends Activity {
      * 启动定时任务 -- ScheduledThreadPoolExecutor
      * scheduleWithFixedDelay -- 从上一个任务结束后开始计算
      * scheduleAtFixedRate -- 从上一个任务开始执行后开始计算,但是对于运行时长超过延时时长，会等上一个任务结束后开始计算
+     * schedule           -- 保证间隔是稳定的
      */
     public void startTimerTask(){
         ScheduledThreadPoolExecutor scheduled = new ScheduledThreadPoolExecutor(2);
@@ -138,27 +142,22 @@ public class CobubSampleActivity extends Activity {
             }
         }, 0, 12, TimeUnit.SECONDS);
 
+        scheduled.schedule(new Runnable() {
+            @Override
+            public void run() {
+                Log.i("xiongliang","ScheduledThreadPool 执行定时任务3");
+            }
+        },12, TimeUnit.SECONDS);
+
     }
 
 
-    @Override
-    protected void onResume() {
-        super.onResume();
-//        UmsAgent.onResume(this);
-    }
-    
-    
-
-    @Override
-    protected void onPause() {
-       
-        super.onPause();
-//        UmsAgent.onPause(this);
-    }
 
     @Override
     protected void onDestroy() {
         RxBus.get().unregister(this);
+        EventBus.getDefault().unregister(this);
+        EventBus.getDefault().post("123");
         super.onDestroy();
     }
 
