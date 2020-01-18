@@ -16,6 +16,7 @@ package com.wbtech.test_sample;
 //import com.tesla.tmd.UmsAgent;
 //import com.tesla.tmd.UmsAgent.SendPolicy;
 
+import android.app.AlertDialog;
 import android.app.job.JobInfo;
 import android.app.job.JobScheduler;
 import android.content.ComponentName;
@@ -66,8 +67,7 @@ public class CobubSampleActivity extends Activity {
         setContentView(R.layout.activity_main);
         RxBus.get().register(this);
         EventBus.getDefault().register(this);
-        Thread
-
+        AlertDialog
 //        startJonIntentService();
           startJobService();
 //        startService();
