@@ -110,16 +110,12 @@ id all
 id async
 id basic
 id blocking
-id button_activity
 id button_back
-id button_error
-id button_event
 id chains
 id chronometer
 id forever
 id icon
 id icon_group
-id imageView1
 id info
 id italic
 id line1
@@ -145,7 +141,7 @@ id text2
 id textView1
 id time
 id title
-id txtURL
+id viewRoot
 id wrap
 integer status_bar_notification_info_maxnum
 layout activity_main
@@ -156,6 +152,7 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout toolbar_layout
 menu activity_main
 menu second
 string action_settings

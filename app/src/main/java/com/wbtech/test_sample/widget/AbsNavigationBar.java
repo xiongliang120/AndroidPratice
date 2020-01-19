@@ -1,32 +1,47 @@
 package com.wbtech.test_sample.widget;
 
 import android.content.Context;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import java.util.HashMap;
 import java.util.Map;
 
 public class AbsNavigationBar implements INavigationBar{
+    private Buidler buidler;
+    private View layoutView;
     /**
      * 设置参数
      * @param buidler
      */
     protected AbsNavigationBar(Buidler buidler) {
-        attachViewToParent(buidler.context);
+        this.buidler = buidler;
+        attachViewToParent();
+        attachViewParams();
     }
 
     /**
      * 将布局添加到父布局
      */
-    private void attachViewToParent(Context context){
-        View layout = LayoutIn
+    private void attachViewToParent(){
+        layoutView = LayoutInflater.from(buidler.context).inflate(buidler.layoutId,buidler.parent);
     }
 
     /**
      * 给布局设置参数
      */
     private void attachViewParams(){
+        for(Map.Entry<Integer,String> entry: buidler.textMap.entrySet()){
+            TextView textView = layoutView.findViewById(entry.getKey());
+            textView.setText(entry.getValue());
+        }
+
+        for(Map.Entry<Integer,View.OnClickListener> entry: buidler.onClickMap.entrySet()){
+            View view = layoutView.findViewById(entry.getKey());
+            view.setOnClickListener(entry.getValue());
+        }
 
     }
 
@@ -34,7 +49,7 @@ public class AbsNavigationBar implements INavigationBar{
     /**
      * 收纳参数
      */
-    public static class Buidler {
+    public abstract static class Buidler {
         private Context context;
         private int layoutId;
         private ViewGroup parent;
@@ -60,5 +75,6 @@ public class AbsNavigationBar implements INavigationBar{
             return this;
         }
 
+        public abstract AbsNavigationBar create();
     }
 }

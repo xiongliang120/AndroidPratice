@@ -44,6 +44,10 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\a5d60dc29de2268a028c50df530157cf\\res\\layout-v21\\notification_action.xml"
     },
     {
+        "merged": "G:\\javaspace\\AndroidPratice\\app\\build\\intermediates\\res\\merged\\debug\\layout_toolbar_layout.xml.flat",
+        "source": "G:\\javaspace\\AndroidPratice\\app\\src\\main\\res\\layout\\toolbar_layout.xml"
+    },
+    {
         "merged": "G:\\javaspace\\AndroidPratice\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_notification_action_background.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\a5d60dc29de2268a028c50df530157cf\\res\\drawable-v21\\notification_action_background.xml"
     },

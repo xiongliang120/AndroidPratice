@@ -1,80 +1,57 @@
 
 package com.wbtech.test_sample;
 
-//import com.wbtech.ums.UmsAgent.SendPolicy;
-//import com.wbtech.ums.UmsAgent.SendPolicy;
-
-//import com.tesla.tmd.UmsAgent;
-//import com.tesla.tmd.UmsAgent.SendPolicy;
-
-//import com.tesla.tmd.UmsAgent;
-//import com.tesla.tmd.UmsAgent.SendPolicy;
-
-//import com.tendcloud.tenddata.TCAgent;
-
-
-//import com.tesla.tmd.UmsAgent;
-//import com.tesla.tmd.UmsAgent.SendPolicy;
-
-import android.app.AlertDialog;
 import android.app.job.JobInfo;
 import android.app.job.JobScheduler;
 import android.content.ComponentName;
 import android.content.Context;
-import android.os.Build;
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
 import android.util.Log;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.View.OnClickListener;
-import android.widget.Button;
+import android.view.ViewGroup;
 
 import com.hwangjr.rxbus.RxBus;
 import com.hwangjr.rxbus.annotation.Subscribe;
 import com.hwangjr.rxbus.thread.EventThread;
 import com.wbtech.test_sample.event.ServiceToActivityEvent;
+import com.wbtech.test_sample.widget.NavigationBar;
 
-import org.greenrobot.eventbus.EventBus;
 
 import java.util.concurrent.ScheduledThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
-/**
- * Before you run App,you need check: 
- * 1.Import appkey (generated in server ) to
- * AndroidManifest.xml such as <meta-data android:name="UMS_APPKEY"
- * android:value="bb08202a625c2b5cae5e2632f604352f "/> 
- * 
- * 2.Permissions in AndroidManifest.xml 
- * <uses-permission
- * android:name="android.permission.INTERNET"/> <uses-permission
- * android:name="android.permission.WRITE_EXTERNAL_STORAGE"/> <uses-permission
- * android:name="android.permission.READ_PHONE_STATE"/> <uses-permission
- * android:name="android.permission.ACCESS_FINE_LOCATION"/> <uses-permission
- * android:name="android.permission.ACCESS_WIFI_STATE"/> <uses-permission
- * android:name="android.permission.GET_TASKS"/> <uses-permission
- * android:name="android.permission.READ_LOGS"/> <uses-permission
- * android:name="android.permission.ACCESS_NETWORK_STATE"/> <uses-permission
- * android:name="android.permission.INSTALL_PACKAGES"/>
- */
+
 public class CobubSampleActivity extends Activity {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        addNavigationBar();
         RxBus.get().register(this);
-        EventBus.getDefault().register(this);
-        AlertDialog
 //        startJonIntentService();
           startJobService();
 //        startService();
 //        startTimerTask();
+    }
 
+    /***
+     * 添加自定义NavigatinBar
+     */
+    public void addNavigationBar(){
+        ViewGroup rootView = findViewById(R.id.viewRoot);
+        NavigationBar.Buidler builder = new NavigationBar.Buidler(this,R.layout.toolbar_layout,rootView);
+        builder.setText(R.id.title,"测试NavigationBar").setOnClickListener(R.id.title,new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Log.i("xiongliang","NavigationBar 被点击");
+            }
+        }).create();
 
     }
+
 
     /**
      * 启动JobIntentService
@@ -156,8 +133,6 @@ public class CobubSampleActivity extends Activity {
     @Override
     protected void onDestroy() {
         RxBus.get().unregister(this);
-        EventBus.getDefault().unregister(this);
-        EventBus.getDefault().post("123");
         super.onDestroy();
     }
 
