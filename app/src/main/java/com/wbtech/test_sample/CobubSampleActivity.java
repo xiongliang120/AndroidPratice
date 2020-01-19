@@ -16,6 +16,7 @@ import com.hwangjr.rxbus.RxBus;
 import com.hwangjr.rxbus.annotation.Subscribe;
 import com.hwangjr.rxbus.thread.EventThread;
 import com.wbtech.test_sample.event.ServiceToActivityEvent;
+import com.wbtech.test_sample.widget.DefaultNavigationBar;
 import com.wbtech.test_sample.widget.NavigationBar;
 
 
@@ -29,7 +30,8 @@ public class CobubSampleActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        addNavigationBar();
+//        addNavigationBar();
+        addDefaultNavigationBar();
         RxBus.get().register(this);
 //        startJonIntentService();
           startJobService();
@@ -49,8 +51,22 @@ public class CobubSampleActivity extends Activity {
                 Log.i("xiongliang","NavigationBar 被点击");
             }
         }).create();
-
     }
+
+    /**
+     * 添加默认NavigationBar
+     */
+    public void addDefaultNavigationBar(){
+        ViewGroup rootView = findViewById(R.id.viewRoot);
+        DefaultNavigationBar.Buidler defaultNavigationBar = new DefaultNavigationBar.Buidler(this,rootView);
+        defaultNavigationBar.setText("defaultNavigationBar").setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Log.i("xiongliang","DefaultNavigationBar 被点击");
+            }
+        }).create();
+    }
+
 
 
     /**
