@@ -24,7 +24,7 @@ public class NavigationBar extends AbsNavigationBar {
          */
         @Override
         public AbsNavigationBar create() {
-            return new NavigationBar(this);  //传this 可能获取不到属性
+            return new NavigationBar(this);  //this 为什么可以获取到属性
         }
     }
 

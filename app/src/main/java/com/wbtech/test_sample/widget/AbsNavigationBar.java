@@ -55,9 +55,12 @@ public class AbsNavigationBar implements INavigationBar{
      * 3) 静态方法/属性: 类装载时加载到内存共享区域,直到JVM关闭才会销毁。
      *    非静态方法/属性: 对象实例化后才会分配内存,实例对象被JVM回收后,也跟着回收。
      *
-     *
+     * 抽象类/接口：
+     * 1) 接口中所有成员属性为 public static final,不能被继承; 接口中所有方法都是public
+     * 2) 抽象类中方法只能为public,protected,default 三种
      */
     public abstract static class Buidler {
+
         private Context context;
         private int layoutId;
         private ViewGroup parent;
