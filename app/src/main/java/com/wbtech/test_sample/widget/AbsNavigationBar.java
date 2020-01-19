@@ -47,7 +47,12 @@ public class AbsNavigationBar implements INavigationBar{
 
 
     /**
-     * 收纳参数
+     * 功能:收纳参数
+     * 静态类:  https://cloud.tencent.com/developer/article/1497439
+     * 1) 静态类只能作为内部类创建
+     * 2) 静态内部类作用,只是为了降低包的深度,实现高内聚,静态内部类不依赖外部类,只能使用外部类的静态属性,方法。
+     *    非静态内部类作用,对外部类有引用,可以使用外部类的所有变量和方法
+     *
      */
     public abstract static class Buidler {
         private Context context;
@@ -77,4 +82,5 @@ public class AbsNavigationBar implements INavigationBar{
 
         public abstract AbsNavigationBar create();
     }
+
 }
