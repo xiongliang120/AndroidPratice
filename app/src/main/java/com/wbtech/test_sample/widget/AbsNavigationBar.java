@@ -13,7 +13,6 @@ public class AbsNavigationBar implements INavigationBar{
     private Buidler buidler;
     private View layoutView;
     /**
-     * 设置参数
      * @param buidler
      */
     protected AbsNavigationBar(Buidler buidler) {
@@ -23,16 +22,19 @@ public class AbsNavigationBar implements INavigationBar{
     }
 
     /**
-     * 将布局添加到父布局
+     *  绑定View
      */
-    private void attachViewToParent(){
+    @Override
+    public void attachViewToParent() {
         layoutView = LayoutInflater.from(buidler.context).inflate(buidler.layoutId,buidler.parent);
     }
 
+
     /**
-     * 给布局设置参数
+     * View 绑定各种属性
      */
-    private void attachViewParams(){
+    @Override
+    public void attachViewParams() {
         for(Map.Entry<Integer,String> entry: buidler.textMap.entrySet()){
             TextView textView = layoutView.findViewById(entry.getKey());
             textView.setText(entry.getValue());
@@ -42,7 +44,6 @@ public class AbsNavigationBar implements INavigationBar{
             View view = layoutView.findViewById(entry.getKey());
             view.setOnClickListener(entry.getValue());
         }
-
     }
 
 
